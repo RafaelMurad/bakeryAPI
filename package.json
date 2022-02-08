@@ -11,11 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "express-async-handler": "^1.2.0",
     "express-joi-validation": "^5.0.1",
     "express-validation": "^3.0.8",
     "joi": "^17.6.0",
+    "mongodb": "^4.3.1",
     "require-dir": "^1.2.0"
   },
   "devDependencies": {
