@@ -11,7 +11,7 @@ async function findOne(collection, data) {
 async function findMany(collection, data) {
   const db = await createConnection(dbConfig);
   const _collection = db.collection(collection);
-  const result = await _collection.find({ data }).toArray();
+  const result = await _collection.find(data).toArray();
   return result;
 }
 
