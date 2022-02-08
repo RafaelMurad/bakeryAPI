@@ -4,5 +4,6 @@ const express = require("express");
 const router = express.Router();
 
 router.post("/rawMaterials", ...rawMaterials.addRawMaterials);
+router.put("/rawMaterials/:id/request", ...rawMaterials.updateRawMaterials);
 
 module.exports = router;
